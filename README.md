@@ -262,7 +262,7 @@ The successful implementation demonstrates that the proposed bridge is fully syn
 
 Timing analysis was performed after implementation to evaluate the maximum operating frequency and verify that all timing constraints were successfully satisfied. The optimized control path introduced by the proposed architecture shortens the critical path, allowing the bridge to operate at a higher clock frequency than a conventional implementation.
 
-The generated timing report confirms that the design meets all setup and hold timing requirements without any violations. The bridge supports operation at a minimum clock period of **6 ns**, corresponding to a maximum operating frequency of approximately **166.67 MHz**, demonstrating the effectiveness of the proposed latency-aware optimizations.
+The generated timing report confirms that the design meets all setup and hold timing requirements without any violations. The bridge supports operation at a minimum clock period of **3.3 ns**, corresponding to a maximum operating frequency of approximately **300 MHz**, demonstrating the effectiveness of the proposed latency-aware optimizations.
 
 <p align="center">
     <img src="Images/Timing.png" width="750">
